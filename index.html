@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <sidebar class="sidebar open">
+      <div class="sidebar-header">
+        <img src="logo.svg" />
+        <img src="menu.svg" id="trigger" class="cursor-pointer"/>
+      </div>
+
+      <div class="sidebar-config">
+        <div class="margin-config">
+          <input class="input-config"  id="abc" type="input" placeholder="Buscar"></input>
+          <img src="search.svg" class="img-input close-img">
+        </div>
+
+        <div class="options cursor-pointer">
+          <img src="grid.svg" />
+          <span class="description">Dashboard</span>
+        </div>
+        <div class="options cursor-pointer">
+        <img src="pet.svg" />
+        <span class="description">Pets</span>
+        </div>
+        <div class="options cursor-pointer">
+          <img src="user.svg" />
+          <span class="description">Clientes</span>
+        </div>
+        <div class="options cursor-pointer">
+          <img src="vet.svg" />
+          <span class="description">Vets</span>
+        </div>
+        <div class="options cursor-pointer">
+          <img src="settings.svg" />
+           <span class="description">Ajustes</span>
+        </div>
+      </div>
+      <div class="log-out">
+        <div class="row-div ">
+          <img class="img-user" src="https://github.com/obaradelli.png" />
+          <div class="column-div">
+            <span>Marcos Baradelli</span>
+            <span>C.E.O</span>
+          </div>
+        </div>
+        <img src="log-out.svg" class="cursor-pointer" />
+      </div>
+
+    </sidebar>
+  </body>
+</html>
