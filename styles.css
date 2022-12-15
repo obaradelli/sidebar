@@ -78,11 +78,12 @@ body {
 
   gap: 1.25rem;
 
-  margin: 1.25rem 0.875rem 0 0.875rem;
+  padding: 1.25rem 0.875rem 0 0.875rem;
+  transition: all 0.2s;
 }
 
 .margin-config {
-  margin-top: 0.375rem;
+  padding-top: 0.375rem;
 
   position: relative;
 }
@@ -92,14 +93,17 @@ body {
 .margin-config .img-input {
   position: absolute;
 
-  top: 4px;
+  top: 11px;
   left: 13px;
 
   cursor: pointer;
+  transition: all 0.2s;
 }
 
 .margin-config .close-img {
   position: absolute;
+
+  top: 20px;
 
   /* margin-left: 13px; */
 }
@@ -148,7 +152,7 @@ input::placeholder {
   flex-direction: row;
 
   gap: 13px;
-  margin-left: 13px;
+  padding-left: 13px;
   align-items: center;
 
   font-family: "Poppins", sans-serif;
@@ -164,7 +168,7 @@ input::placeholder {
 .log-out {
   height: 60px;
 
-  margin-top: auto;
+  padding-top: auto;
 
   display: flex;
   align-items: center;
@@ -215,11 +219,11 @@ input::placeholder {
 /**************************/
 
 .unHide {
-  animation: aparecer 0.5s forwards;
+  animation: aparecer 0.2s forwards;
 }
 
 .hide {
-  animation: desaparecer 0.5s forwards;
+  animation: desaparecer 0.2s forwards;
 }
 
 .none {

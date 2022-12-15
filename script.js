@@ -22,11 +22,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function displayNone() {
     const rowDiv = document.querySelector(".row-div");
+    const abcd = document.querySelector(".abcd");
     const setNone = rowDiv.classList.contains("none");
 
     if (setNone) {
       rowDiv.classList.remove("none");
+      abcd.classList.remove("none");
     } else {
+      abcd.classList.add("none");
       rowDiv.classList.add("none");
     }
   }
